@@ -1,0 +1,105 @@
+{
+    // First -> bit 3 is key item, bit 2 is equippable, bit 1 is battle usable, bit 0 is overworld usable
+    // ?[Second] -> Amount of condiments/ingredients you can add to food
+    // Second/Third+ -> item functions and their parameters split with a comma
+  
+    // Food and Drinks
+    "Applesauce": "3:0",
+    "Rock Candy": "3:1",
+    "Cheeseburger": "3:3",
+    "Brownie": "3:1",
+    "Pizza": "3:1",
+    "Hot Dog": "3:3",
+    "Diced Pears": "3:0",
+    "Potato Chips": "3:1",
+    "Soda": "3:0",
+    "ToastrPastry": "3:1",
+    "ChocolateBar": "3:0",
+    "Fruit Cup": "3:0",
+    "Fries": "3:1",
+    "Cookie": "3:1",
+    "Pretzels": "3:0",
+    "Sausage": "3:1",
+    "IceCreamCone": "3:2",
+    "Funnel Cake": "3:1",
+    "ChcknPotPie": "3:0",
+    "BeefPotPie": "3:0",
+    "PopcornChckn": "3:1",
+    "ChcknNuggets": "3:1", // 6 piece chicken nuggets
+    "Honey Bun": "3:0",
+    "ChcknSndwch": "3:3",
+    "Fish Sticks": "3:1", // Fish sticks, get your fish sticks here!
+    "Pulled Pork": "3:0",
+    "Baked Beans": "3:0", // Number 19, mouse in baked beans
+    "Quesadilla": "3:1",
+    "CheeseRngoon": "3:1",
+    "Sushi": "3:0",
+    "Macaroon": "3:1",
+    "Mac & Cheese": "3:1",
+    "Bread": "3:3", // Godot is my bread and butter for game dev
+    "Taco": "3:3", // Tacos, onto the street, tacos, all you can eat
+    "Chef's Salad": "3:3", // Fruit Salad, yummy yummy
+    "Cheesecake": "3:1",
+    "Cereal": "3:0",
+    "AppleFritter": "3:1",
+    "ChcknTenders": "3:1",
+    "Nachos": "3:1",
+    "Baked Potato": "3:2",
+    
+    // Condiments / Ingredients
+    "Pickles": "3",
+    "Onions": "3",
+    "Garlic": "3",
+    "Butter": "3",
+    "Salt Packet": "3",
+    "PepperPacket": "3",
+    "KetchupPackt": "3",
+    "MustardPackt": "3",
+    "Mayo Packet": "3",
+    "RelishPacket": "3",
+    "Sugar Packet": "3",
+    "Hot Sauce": "3",
+    "BBQ Sauce": "3",
+    "HoneyMustard": "3",
+    "SwtSourSauce": "3",
+    "Sriracha": "3",
+    "MarinaraSauc": "3",
+    "Ranch": "3",
+    "Chili Sauce": "3",
+    "Salsa": "3",
+    "Chip Dip": "3",
+    "WhippedCream": "3",
+    "BuffaloSauce": "3",
+    "Honey": "3",
+    "Maple Syrup": "3",
+    "ChoclateChps": "3",
+    "PeanutButter": "3",
+    "Jelly": "3",
+    "Tartar Sauce": "3",
+    "Cream Cheese": "3",
+    "ShreddedChse": "3",
+    "Lettuce": "3",
+    "Sour Cream": "3",
+    "DicedTomatos": "3",
+    "Strawberries": "3",
+    "Queso Dip": "3",
+    
+    // Battle Items
+    "LightningBag": "2",
+    "Sleep Slime": "2",
+  
+    // Key Items
+    
+    // Weapons
+    "Shotgun": "4",
+    "Sniper": "4",
+  
+    // Head Armor
+    
+    // Torso Armor
+  
+    // Accessories
+    "BirthdayBadg": "12:equip,a"
+  
+    // Other Items
+  }
