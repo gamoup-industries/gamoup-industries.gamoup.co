@@ -4,7 +4,7 @@ class Game {
      * @param {number} [config.width=undefined]
      * @param {number} [config.height=undefined]
      * @param {HTMLCanvasElement} [config.canvas=undefined]
-     * @param {string} [canvas.backgroundColor=undefined]
+     * @param {string} [config.backgroundColor=undefined]
      */
     constructor(config) {
         if (config.canvas) {
