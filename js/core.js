@@ -4,6 +4,6 @@ class Game {
      * @param {number} [config.width=640]
      */
     constructor(config) {
-        alert(config.width);
+        alert(config.width || 640);
     }
 }
