@@ -1,9 +1,9 @@
 class Game {
     /**
      * @param {object} config
-     * @param {number} [width=640]
+     * @param {number} [config.width=640]
      */
-    constructor() {
-        
+    constructor(config) {
+        alert(config.width || "No");
     }
 }
