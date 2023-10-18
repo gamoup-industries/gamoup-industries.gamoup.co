@@ -1,4 +1,6 @@
 var Game = function() {
+    this.canvas = document.getElementById("");
+
     this.create = function() {
 
     };
