@@ -15,7 +15,7 @@ class Game {
             this.canvas = document.createElement("canvas");
             this.canvas.width = config.width || 640;
             this.canvas.height = config.height || 480;
-            document.body.appendChild();
+            document.body.appendChild(this.canvas);
         }
     }
 }
