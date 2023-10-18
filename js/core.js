@@ -4,7 +4,7 @@
  * @param {number} [config.height=480]
  */
 var Game = function(config) {
-    alert(config.width || 640)
+    alert(config.width || 640);
     this.canvas = document.getElementById("game");
 
     this.create = function() {
