@@ -18,5 +18,7 @@ class Game {
             document.body.appendChild(this.canvas);
         }
         this.canvas.style.backgroundColor = config.backgroundColor || "black";
+
+        this.ctx = this.canvas.getContext("2d");
     }
 }
