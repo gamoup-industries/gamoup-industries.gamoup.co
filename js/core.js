@@ -11,7 +11,6 @@ class Game {
             this.canvas = config.canvas;
             this.canvas.width = config.width || this.canvas.width;
             this.canvas.height = config.height || this.canvas.height;
-            alert("Yes");
         } else {
             this.canvas = document.createElement("canvas");
             this.canvas.width = config.width || 640;
