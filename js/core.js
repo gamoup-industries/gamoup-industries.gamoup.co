@@ -17,5 +17,6 @@ class Game {
             this.canvas.height = config.height || 480;
             document.body.appendChild(this.canvas);
         }
+        this.canvas.style.backgroundColor = config.backgroundColor || "black";
     }
 }
